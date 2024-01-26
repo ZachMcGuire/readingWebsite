@@ -2,39 +2,79 @@
     /*border: 1px solid red;*/
 }
 .header-container {
-    /*border: 1px solid red;*/
-    /*display: flex;*/
-    background-color: hsla(229, 48%, 28%, 0.795);
+    /* border: 1px solid red;
+    display: flex;
+    flex-direction: row; */
+
+
+    background: linear-gradient(to right, #fcdca7, #2720e6b8);
+}
+
+.headerSub {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+    padding: 20px;
+}
+
+.logoContainer {
+    width: 30%;
+    display: flex;
+   
+}
+
+.logo {
+    /* border: 1px solid red; */
+    width: 75%;
+    border-radius: 20%;
+    display: flex;
+    
 }
 
 .header-menu-container { 
     display: flex;
-    padding: 10px;
-}
-
-.header-menu {
-    border: 1px solid red;
-    display: flex;
+    align-items: center;
     justify-content: space-evenly;
-}
+    flex-wrap: wrap;
+    width: 40%;
+    padding: 10px;
+    /* border: 1px solid red; */
 
-.header-link-buttons {
-    /*border: 1px solid red;*/
-    display: flex;
-    flex-direction: row;
-    
-    
 }
 
 .link-button {
     display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 20%;
+    border: solid 1px black;
+    border-radius: 20%;
+    background-color: #fcdca7;
+
+
     
     /*border: 1px solid red;*/
 }
-.main-header-container {
+
+.logInContainer {
+    display: flex;
+    align-items: center;
+    width: 15%;
+}
+
+.logIn {
+    border: solid 1px black;
+    border-radius: 20%;
+    padding: 10px;
+    background-color: #fcdca7;
+}
+
+.sub-header-container {
     /*border: 1px solid red;*/
     flex-direction: row;
     display: flex;
+    justify-content: space-evenly;
     padding: 20px;
 }
 
@@ -107,12 +147,19 @@
     background-color: lightgray;
     display: flex;
     align-content: center;
+    align-items: center;
     padding: 80px;
     flex-direction: column;
 }
 
-.quote-text {
+.subQuoteContainer {
+    display: flex;
+    align-items: center;
+}
 
+.quote-text {
+    font-size: 175%;
+    font-style: italic;
 }
 
 .quote-author {
@@ -120,4 +167,33 @@
     justify-content: end;
     padding: 10px;
     font-weight: bolder;
+    font-size: 150%;
+    /* font-style: oblique; */
+}
+
+.Cat-in-the-hat {
+    width: 30%;
+}
+
+.subQuoteContainer2 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.quote-text2 {
+    font-size: 175%;
+    font-style: italic;
+}
+
+.quote-author2 {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    font-weight: bolder;
+    font-size: 150%;
+}
+
+.Child-Reading {
+    width: 25%;
 }
