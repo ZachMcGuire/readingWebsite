@@ -1,0 +1,123 @@
+* {
+    /*border: 1px solid red;*/
+}
+.header-container {
+    /*border: 1px solid red;*/
+    /*display: flex;*/
+    background-color: hsla(229, 48%, 28%, 0.795);
+}
+
+.header-menu-container { 
+    display: flex;
+    padding: 10px;
+}
+
+.header-menu {
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.header-link-buttons {
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.link-button {
+    display: flex;
+    
+    /*border: 1px solid red;*/
+}
+.main-header-container {
+    /*border: 1px solid red;*/
+    flex-direction: row;
+    display: flex;
+    padding: 20px;
+}
+
+.header-right-column {
+    background-color: gray;
+}
+
+.header-left-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.header-left-title {
+    font-size: 36px;
+}
+
+.header-left-button{
+    height: 30px;
+    width: 80px;
+}
+.main-information-container {
+    /*border: 1px solid red;*/
+    display: flex;
+    flex-direction: column;
+}
+
+.information-title {
+    /*border: 1px solid red;*/
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-weight: bold;
+}
+
+.pictures-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding-top: 10px;
+}
+
+.sub-container {
+    border: 2px solid blue;
+    border-radius: 10%;
+    height: 60px;
+    width: 60px;
+    
+}
+
+.information-text-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 15px;
+}
+
+.info-sub-container {
+    /*border: 1px solid red;*/
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.quote-container {
+    background-color: lightgray;
+    display: flex;
+    align-content: center;
+    padding: 80px;
+    flex-direction: column;
+}
+
+.quote-text {
+
+}
+
+.quote-author {
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    font-weight: bolder;
+}
