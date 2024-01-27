@@ -34,7 +34,7 @@
 
 .header-menu-container { 
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-evenly;
     flex-wrap: wrap;
     width: 40%;
@@ -57,6 +57,10 @@
     /*border: 1px solid red;*/
 }
 
+.link-button:hover {
+    background-color: azure;
+}
+
 .logInContainer {
     display: flex;
     align-items: center;
@@ -68,6 +72,10 @@
     border-radius: 20%;
     padding: 10px;
     background-color: #fcdca7;
+}
+
+.logIn:hover {
+    background-color: azure;
 }
 
 .sub-header-container {
@@ -196,4 +204,9 @@
 
 .Child-Reading {
     width: 25%;
+}
+
+.testLink{
+    border: solid 1ps black;
+    width: 25px;
 }
